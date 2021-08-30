@@ -46,7 +46,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     list-style: none;
 }
 img{
-    max-width: 800px;
+    max-width: 200px;
 }
 div.flex{
     display: flex;
@@ -192,7 +192,7 @@ main{}
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
-        background-color: #e2e2e2;
+        background-color: #f6f6f6;
     }
         .secaoContato h2{
             font-weight: 600;
