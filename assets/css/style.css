@@ -46,11 +46,8 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     list-style: none;
 }
 
-h2 {
-    font-family: Montserrat, sans-serif;
-}
 img{
-    max-width: 200px;
+    max-width: 800px;
 }
 div.flex{
     display: flex;
