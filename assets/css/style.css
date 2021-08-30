@@ -29,7 +29,13 @@ family=Lato -> Títulos, textos
 /* FONTS */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+    --color-primary: #FFFFFF;
+    --color-secondary: #007aff;
+    --color-tertiary: #00043e;
+    --color-quaternary: #303030;
+    --color-quintary: #818181;
+}
   
 /* GERAL */
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
