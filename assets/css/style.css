@@ -349,7 +349,7 @@ main{}
                 }
                 .secaoCursos ul li h3{
                     font-size: 19px;
-                    font-weight: 100;
+                    font-weight: 400;
                     margin-bottom: 30px;
                 }
                 .secaoCursos ul li p{
@@ -387,7 +387,7 @@ main{}
                         padding: 30px;
                     }
                     .calendario li h3{
-                        font-weight: 100;
+                        font-weight: 400;
                         margin-top: 30px;
                     }
                     .calendario li p{
@@ -404,7 +404,7 @@ main{}
                     }
                         .calendario-data-rodape span{
                             font-size: 36px;
-                            font-weight: 100;
+                            font-weight: 400;
                             margin-bottom: 20px;
                             color: var(--color-quintary);
                         }
@@ -436,7 +436,7 @@ main{}
             width: 240px;
             margin-bottom: 40px;
         }
-            .flex-col{
+            .secaoContato .flex-col{
                 line-height: 30px;
                 color: var(--color-quintary);
             }
@@ -452,7 +452,7 @@ main{}
                     }
 
                 
-                .flex-col form{}
+                .secaoContato .flex-col form{}
                     .form-input-model{
                         width: 240px;
                     }
@@ -475,7 +475,7 @@ main{}
                             padding: 5px;
                             margin-top: 5px;
                         }
-                    .flex-col .btn{
+                    .secaoContato .flex-col .btn{
                         float: right;
                         border: none;
                         border-radius: 5px;
