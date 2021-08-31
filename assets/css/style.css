@@ -464,6 +464,7 @@ main{}
             flex-direction: column;
             width: 240px;
             margin-bottom: 40px;
+            max-width: 1170px;
         }
             .secaoContato .flex-col{
                 line-height: 30px;
