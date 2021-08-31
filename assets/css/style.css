@@ -470,7 +470,9 @@ main{}
                 color: var(--color-quintary);
             }
                 .secaoContato-informacoes{}
-                    .secaoContato-informacoes p{}
+                    .secaoContato-informacoes p{
+                        margin-bottom: 0px;
+                    }
                     .secaoContato-informacoes ul{
                         line-height: 35px;
                     }
@@ -685,7 +687,7 @@ body {
 /*Seção Sobre*/    
         
         .secaoCursos ul{
-            max-width: 950px;
+            max-width: 920px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -715,6 +717,7 @@ body {
             }
             .secaoContato .esquerdo{
                 width: 40%;
+                justify-content: unset;
             }
             .secaoContato .direito{
                 width: 55%;
@@ -729,6 +732,13 @@ body {
                 border: solid #d8d8d8 1px;
                 margin-top: 5px;
             }
+    footer p{
+        display: block;
+    }
+    footer a{
+        text-decoration: none;
+        color: var(--color-secondary);
+    }
 
 
 }
