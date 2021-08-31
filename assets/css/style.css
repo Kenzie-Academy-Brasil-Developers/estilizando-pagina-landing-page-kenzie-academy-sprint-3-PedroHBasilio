@@ -78,11 +78,7 @@ html{
     font-family: 'Lato', sans-serif;
 }
 /* HTML */
-  
-/* BODY */
-body{}
-/* BODY */
-  
+
 /* HEADER */
 .topo {
     background-color: var(--color-tertiary);
