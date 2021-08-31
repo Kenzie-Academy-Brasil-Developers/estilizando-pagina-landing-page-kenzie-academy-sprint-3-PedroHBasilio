@@ -49,7 +49,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
 img{
     max-width: 800px;
 }
-div.flex{
+.flex{
     display: flex;
 }
 div.full-container{
@@ -99,6 +99,9 @@ body{}
 .large-container figcaption {
    display: none;
 }
+.menu__desktop {
+    display: none;
+}
 .menu__details {
     position: absolute;
     right: 0px;
@@ -136,7 +139,7 @@ body{}
 }
 
 .menu__details a {
-    font-size: 16px;
+    font-size: 13px;
     color: var(--color-quaternary);
     text-decoration: none;
 }
@@ -159,8 +162,13 @@ body{}
 /* HEADER */
 
 /*Seção Destaque*/
+
+.inicial {
+    width: 100%;
+}
 .secaoDestaque {
     height: 300px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,7 +185,7 @@ body{}
 
 .secaoDestaque p {
     line-height: 8vh;
-    font-size: 20px;
+    font-size: 21px;
     color: var(--color-primary);  
 }
 
@@ -223,6 +231,16 @@ body{}
 /*Seção Destaque*/
 
 /*Seção Sobre*/
+
+.flex-col button {
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    border: 1px solid #818181;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+
 .secaoSobre-1 {
     display: flex;
     flex-direction: column;
@@ -264,14 +282,6 @@ body{}
     color: var(--color-quintary);
 }
 
-.flex-col button {
-    border-radius: 5px;
-    background-color: var(--color-primary);
-    border: 1px solid #818181;
-    margin-bottom: 25px;
-    box-sizing: border-box;
-}
-
 .flex-col button:active {
     border: 1px solid transparent;
     background-color: var(--color-secondary);
@@ -282,8 +292,25 @@ body{}
     display: none;
 }
 
+.secaoSobre-1 .flex {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secaoSobre-1 figure {
+    width: 200px;
+    align-self: center;
+}
+
 .secaoSobre-1 img {
    width: 100%;
+}
+
+.secaoSobre-2 .flex {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .secaoSobre-2 .flex-col {
@@ -305,19 +332,8 @@ body{}
     color: var(--color-quintary);
     line-height: 4vh;
 }
-
-
 /*Seção Sobre*/
-
-
-
-
-
-
-
-
-
-  
+ 
 /* FOOTER */
 footer{
     margin: 40px;
@@ -527,7 +543,146 @@ main{}
     @media screen and (min-width: 400px) {}
   
     @media screen and (min-width: 800px) {
-        
+/* HEADER */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo {
+    height: 100px;
+    width: 100%;
+}
+
+.large-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.large-container img {
+    width: 50px;
+}
+
+.menu__details {
+    display: none;
+}
+
+.menu__desktop {
+    display: inherit;
+    background-color: var(--color-tertiary);
+}
+.menu__desktop ul {
+    background-color: var(--color-tertiary);
+}
+.menu__desktop li {
+    display: inline;
+    margin: 10px;
+    font-size: 13px;
+    background-color: var(--color-tertiary);
+}
+
+.menu__desktop a {
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.menu__desktop a:hover {
+    text-decoration: underline;
+}
+/* HEADER */
+
+/*Seção Destaque*/
+.secaoDestaque {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/img/background-destaque.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.secaoDestaque h2 {
+    width: 100%;
+    font-size: 63px;
+    font-weight: 300;
+}
+
+.secaoDestaque p {
+    font-weight: 300;
+}
+
+.secaoDestaqueFormulario {
+    width: 600px;
+}
+
+.secaoDestaqueFormulario input {
+    width: 80%;
+}
+
+.secaoDestaqueFormulario button {
+    width: 20%;
+}
+/*Seção Destaque*/
+
+/*Seção Sobre*/
+
+
+.flex-col button {
+    width: 100px;
+}
+
+.flex-col button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.secaoSobre-1 .flex {
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secaoSobre-1 .flex-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.secaoSobre-1 figure {
+    align-self: flex-end;
+    width: 300px;
+}
+
+.secaoSobre-2 .flex {
+    width: 75%;
+    flex-direction: row;
+}
+
+.secaoSobre-2 .flex-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.secaoSobre-2 figure {
+    align-self: flex-start;
+}
+.secaoSobre-2 img {
+    width: 250px;
+ }
+ 
+.secaoSobre-2 h2 {
+    width: 100%;
+    text-align: left;
+}
+/*Seção Sobre*/    
         
         .secaoCursos ul{
             max-width: 950px;
@@ -574,6 +729,8 @@ main{}
                 border: solid #d8d8d8 1px;
                 margin-top: 5px;
             }
+
+
 }
 /* MEDIA QUERIES */
 
