@@ -442,6 +442,11 @@ body {
     width: 100px;
 }
 
+.flex-col button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
 .secaoSobre-1 .flex {
     width: 60%;
     flex-direction: row;
